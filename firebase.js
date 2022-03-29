@@ -1,8 +1,10 @@
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
+import { FIREBASE_API_KEY } from "@env";
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDg92NtdOa9peMIvNSRMUyMK8JLA-i4x_8",
+  apiKey: FIREBASE_API_KEY,
   authDomain: "foodapp-a3f3c.firebaseapp.com",
   projectId: "foodapp-a3f3c",
   storageBucket: "foodapp-a3f3c.appspot.com",
